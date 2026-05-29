@@ -1,0 +1,100 @@
+.date-range-filter {
+  margin-bottom: 1.5rem;
+}
+
+.quick-select-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.quick-select-buttons button {
+  padding: 0.5rem 1rem;
+  background: #e5e7eb;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.quick-select-buttons button:hover {
+  background: #d1d5db;
+}
+
+.date-range-display {
+  background: #f3f4f6;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.btn-custom-date {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.btn-custom-date:hover {
+  background: #2563eb;
+}
+
+.custom-date-picker {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.date-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-input-group label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.date-input-group input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.date-error {
+  grid-column: 1 / -1;
+  color: #dc2626;
+  font-size: 0.9rem;
+  background: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.btn-apply-dates {
+  padding: 0.5rem 1rem;
+  background: #16a34a;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.btn-apply-dates:hover {
+  background: #15803d;
+}

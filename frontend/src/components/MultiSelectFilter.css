@@ -1,0 +1,69 @@
+.multi-select-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-dropdown-btn {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-dropdown-btn:hover {
+  border-color: #9ca3af;
+  background: #f9fafb;
+}
+
+.filter-count {
+  background: #3b82f6;
+  color: white;
+  border-radius: 12px;
+  padding: 0 0.4rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.filter-dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filter-option:hover {
+  background-color: #f3f4f6;
+}
+
+.filter-option input[type='checkbox'] {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.report-table-wrapper {
+  overflow-x: auto;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.report-table thead {
+  background: #f3f4f6;
+  position: sticky;
+  top: 0;
+}
+
+.report-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #d1d5db;
+  min-width: 100px;
+}
+
+.report-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.report-table th.sortable:hover {
+  background: #e5e7eb;
+}
+
+.report-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.report-table tbody tr.even {
+  background: #f9fafb;
+}
+
+.report-table tbody tr:hover {
+  background: #f3f4f6;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-approved {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-checkedin {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.status-checkedout {
+  background: #c7d2fe;
+  color: #3730a3;
+}
+
+.status-denied {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.report-table-empty {
+  padding: 2rem;
+  text-align: center;
+  color: #6b7280;
+  background: #f9fafb;
+  border-radius: 4px;
+}
+
+.table-pagination {
+  padding: 1rem;
+  text-align: right;
+  color: #6b7280;
+  font-size: 0.9rem;
+  border-top: 1px solid #e5e7eb;
+}
